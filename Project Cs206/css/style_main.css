@@ -1,0 +1,847 @@
+
+/*CSS for the Main page*/
+body{
+width:1200px;
+
+background-image:linear-gradient(to left,#e6b800,#ff6600);
+  
+  margin: auto;
+
+}
+
+
+h1{
+	position:relative;
+background-color:#ff6600;
+border: double 7px black;
+  border-radius: 5px;
+  margin:auto;
+  padding: 0.4em;
+  text-align:center;
+font-family:"Hiragino Kaku Gothic Pro",  cursive;
+color:#332900;
+font-weight:italic;
+
+
+}
+.logo{
+	
+	position:absolute;
+	
+	top:0px;
+	left:25px;
+	
+}
+
+
+
+
+.nav{
+	
+	border: double 5px black;
+  border-radius: 5px;
+	font-size:80%;
+	background-color:#b35900;
+	
+	font-family: "Hiragino Kaku Gothic Pro",  cursive;
+	
+	
+	
+	
+	
+}
+
+main{
+	
+	background-image:linear-gradient(to left,#e6b800,#ff6600);
+	margin:auto;
+	
+	width: 1200px;
+	padding-bottom:10px;
+  	
+  		
+	text-align: center;
+}
+
+.quote{
+	text-align:center;
+	position: relative;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Hiragino Kaku Gothic Pro",  cursive;
+  background: -webkit-linear-gradient(#b35900, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-reflect: below -10px linear-gradient(transparent,rgba(0,0,0,0.3));
+  margin-top:15px;
+	
+}
+.center{
+	
+  
+	padding:0;
+ position: relative;
+ top:20%;
+  text-align: center;
+  align-items:center;
+  color:#cc5200;
+  
+ 
+}
+.gif{
+	
+	width:722px;
+	height:405px;
+	
+	
+
+border: 5px solid orange;
+border-radius: auto;
+ margin-top:auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+	
+}
+
+.text{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Brush Script MT', cursive;
+ 
+	
+	
+}
+
+#msg{
+	
+	position: relative;
+  top: 70px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	
+	font-family: "Hiragino Kaku Gothic Pro",  cursive;
+  background: -webkit-linear-gradient(#b35900, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	display: block;
+
+padding: 0.4em;
+  text-align:center;
+  
+}
+
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style-type: none;margin: 0;
+padding: 0;
+list-style-type: none;
+display:flex;
+justify-content:center;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  color: #332900;
+  display: block;
+border: 2px solid;
+border-radius: .4em;
+padding: .4em 1em;
+margin: .4em;
+}
+
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+  color: #ff6600;
+  display: block;
+border: 1px solid;
+border-radius: .4em;
+padding: .4em 1em;
+margin: .4em;
+}
+  
+footer{
+	position:relative;
+	
+	border :1px dashed;
+	text-align:center;
+	background-color:#b35900;
+	font-family:"Hiragino Kaku Gothic Pro",  cursive;
+	color:#332900;
+	
+}
+
+
+
+/* CSS for the about page */
+
+.column1,.column2,.column3 {
+	text-align:center;
+  float: left;
+  
+  border: 2px solid black;
+width: 25%;
+height:600px;
+
+border-radius: 35px;
+margin:20px;
+margin-left:60px;
+line-height:30px;
+font-family:"Hiragino Kaku Gothic Pro",  cursive;
+color:#663d00;
+}
+
+.column1 a{
+	color:orange;
+	text-decoration:none;
+	
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*For the Anime page*/
+
+
+.flex-container {
+  display: flex;
+  
+  padding-left: 20px;
+  padding-top: 10px;
+  margin: 0px;
+  font-family:"Hiragino Kaku Gothic Pro",  cursive;
+  font-size:80%
+}
+
+.flex-container > div {
+  width: 33%;
+  padding-left: 150px;
+  margin: 20px;
+  padding: 0px;
+}
+.flex-container2 {
+  display: flex;
+  
+  padding-left: 20px;
+  padding-top: 10px;
+  margin: 0px;
+  font-family:"Hiragino Kaku Gothic Pro",  cursive;
+  font-size:80%
+}
+
+.flex-container2 > div {
+  width: 33%;
+  padding-left: 150px;
+  margin: 20px;
+  padding: 0px;
+}
+
+
+
+
+#all{
+	
+	width:1200px;
+}
+	
+#now{
+  display: none;
+}
+
+#now1{
+  display: none;
+}
+
+#now2{
+  display: none;
+}
+
+#now3{
+  display: none;
+}
+
+#now4{
+  display: none;
+}
+
+#now5{
+  display: none;
+}
+
+.sugg{
+	position:relative;
+	top:95px;
+	left:592px;
+  transform: translate(-50%, -50%);
+border: double 4px #332900 ;
+border-radius: .4em;
+padding: .4em 1em;
+margin: .4em;
+	font-family:"Hiragino Kaku Gothic Pro",  cursive;
+	line-height:25px;
+	
+}
+ .sugg h3{
+	color:#804d00;
+	
+}
+
+
+
+.sugg a:hover{
+	color:#ff6600;
+}
+
+/*CSS FOR MANGA PAGE*/
+
+.action,.comedy,.sport{
+	color: #332900;
+  display: block;
+border: 2px solid;
+border-radius: .4em;
+padding: .4em 1em;
+margin: .4em;
+line-height:25px;
+background-color:#ffd699;
+ font-family: 'Brush Script MT', cursive;
+ font-size:125%;
+}
+	
+	#img1{
+		
+		float:right;
+		
+		
+	}
+	.comedy p,.sport p{
+		text-align:left;
+		
+		
+	}
+	
+	#img2{
+		
+		float:left;
+		
+		
+	}
+	
+	.action p{
+		text-align:right;
+		
+		
+	}
+	
+	/*CSS for the Toys Page*/
+	.flex-container3 {
+  display: flex;
+  
+  padding-left: 0px;
+  padding-top: 10px;
+  margin: 0px;
+  
+  font-size:80%;
+  
+}
+
+.flex-container3 > div {
+  width: 30%;
+  padding-left: 150px;
+  margin: 20px;
+  padding: 0px;
+}
+
+.flex-container3 div{
+	
+	
+	color: #332900;
+  display: block;
+border: 2px dashed;
+border-radius: .4em;
+padding: .4em 1em;
+margin: .4em;
+background-color:#ffff66;
+	text-align:center;
+	line-height:25px;
+}
+
+.flex-container3 div h5{
+	font-family:"Hiragino Kaku Gothic Pro",  cursive;
+	color:red;
+	
+}
+
+.flex-container3 div h2{
+	font-family:"Times New Roman",  serif;
+	color:green;
+	
+}
+
+.flex-container3 div p:hover{
+	
+	color:red;
+}
+	
+	/*CSS for the games page*/
+	
+	.head{
+		
+	height:250px;	
+		
+		
+	}
+	
+	
+	
+	.sb_menu{
+
+float:right;
+border: 5px black solid;
+border-radius: .4em;
+padding: .4em 1em;
+
+margin: 2.5em;
+margin-left:300px;
+background-color:#ffd699;
+font-weight:bold;
+line-height:35px;
+
+}
+
+.head h2{
+width:150%;
+font-size:150%;
+
+line-height:35px;
+
+background: -webkit-linear-gradient(#b35900, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-reflect: below -10px linear-gradient(transparent,rgba(0,0,0,0.3));
+}
+
+.flex-container4 {
+  display: flex;
+  
+  padding-left: 0px;
+  padding-top: 10px;
+  margin: 0px;
+  
+  font-size:80%;
+  
+}
+
+.flex-container4 > .sbmenu,.head {
+  width: 50%;
+  padding-left: 150px;
+  margin: 20px;
+  padding: 0px;
+}
+
+.sb_menu ul li a:focus, .sb_menu ul li a:active,.sb_menu ul li a:link, .sb_menu ul li a:visited  {
+  color:#ff6600 ;
+  }
+  
+  .offer{
+	  display: flex;
+  
+  padding-left: 0px;
+  padding-top: 10px;
+  margin: 0px;
+	  
+	  
+  }
+  .offer > .joker {
+  width: 40%;
+  padding-left: 150px;
+  margin: 20px;
+  padding: 0px;
+}
+
+.offer > .texts {
+  width: 60%;
+  padding-left: 150px;
+  margin: 20px;
+  padding: 0px;
+}
+  
+  
+  
+  
+  .joker{
+	  
+	  float:left;
+	  margin-right:1500px;
+	  
+	  
+  }
+  
+  .texts{
+	  
+	  line-height:50px;
+	  color:#804d00;
+	  background-color: #f3ec78;
+    background-image: linear-gradient(45deg,red, black );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+	  
+  }
+  
+  
+  
+  a.price:link{
+	color: rgb(83, 16, 16);
+	text-decoration: none;
+}
+
+a.price:visited{
+	color: brown;
+	text-decoration: none;
+}
+
+a.price:hover{
+	color: #ff6600;
+	text-decoration: none;
+}
+
+table{
+	background-color: #ffd699;
+	
+}
+
+#back{
+	
+	padding: 10px;
+	margin: 10px;
+	border: 5px solid orange ;
+}
+
+table, td {
+  border: 1px solid rgb(0, 0, 0);
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+th{
+  border: 1px solid rgb(0, 0, 0);
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #D35400;
+}
+  
+  .texts,.flex-container4{
+	  
+	  font-family:"Hiragino Kaku Gothic Pro",  cursive;
+  }
+  
+  /*CSS for the clothing page*/
+  
+  
+  
+  .main{
+	
+	background-image:linear-gradient(to left,#e6b800,#ff6600);
+	margin:auto;
+	
+	width: 1200px;
+	padding-bottom:10px;
+  	padding-top:20px;
+  		
+	text-align: center;
+}
+  
+  /* Used for the slideshow in the clothing page of the website */
+.mySlides {
+	display: none;
+}
+.mySlides img {
+	vertical-align: middle;
+	height: 600px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 640px;
+  position: sticky;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+/* Places the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The bullet indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+#image{
+	
+	color: 	#D35400;
+	background-color:#ffd699;
+	font-size: 25px;
+	font-family:"Hiragino Kaku Gothic Pro",  cursive;
+	border: double 7px black;
+  border-radius: 5px;
+  margin:auto;
+  padding: 0.4em;
+  text-align:center;
+  
+	
+}
+
+.flex-container5 {
+  display: flex;
+  
+  padding-left: 0px;
+  padding-top: 10px;
+  margin: 20px;
+  
+  font-size:80%;
+  
+}
+
+.flex-container5 > .left,.right {
+  width: 50%;
+  padding-left: 150px;
+  margin: 20px;
+  padding: 0px;
+}
+
+
+
+.left,.right {
+	
+	color: #332900;
+  display: block;
+border: 2px dashed;
+border-radius: .4em;
+padding: .4em 1em;
+margin: .4em;
+background-color:#ffff66;
+	text-align:center;
+	font-family:"Verdana",  serif;
+	line-height:55px;
+	font-size:150%;
+}
+
+.right{
+	
+	margin-top:20px;
+	margin-bottom:20px;
+}
+/*CSS for the FAQ Page*/
+.faq1,.faq2,.faq3,.faq4,.faq5{
+	
+	border: double 4px #332900 ;
+border-radius: .4em;
+padding: .4em 1em;
+margin: .4em;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	line-height:25px;
+	
+	
+}
+
+.faq1{
+	background-color:#ff751a;
+}
+
+.faq2{
+	background-color:#ff8533;
+}
+
+.faq3{
+	background-color:#ff944d;
+}
+
+.faq4{
+	background-color:#ffa366;
+}
+
+.faq5{
+	background-color:#ffb380;
+}
+
+.main2 a:hover {
+	color:#ff751a;
+	font-size: 125%;
+	text-decoration: none;
+	
+}
+
+
+
+
+
+
+
+
+.main2{
+	
+	background-image:url(../images/crew.jpg);
+	margin:auto;
+	
+	width: 1200px;
+	padding-bottom:10px;
+  	padding-top:20px;
+  		
+	text-align: center;
+}
+
+/* CSS for Contact info PAGE*/
+.flex-container6 {
+  display: flex;
+  
+  padding-left: 0px;
+  padding-top: 10px;
+  margin: 20px;
+  
+  font-size:80%;
+  
+}
+
+.flex-container6 > .leftcolumn,.rightcolumn {
+  width: 50%;
+  padding-left: 150px;
+  margin: 20px;
+  padding: 0px;
+}
+
+.leftcolumn,.rightcolumn{
+	
+	
+	color: #332900;
+  display: block;
+border: 2px dashed;
+border-radius: .4em;
+padding: .4em 1em;
+margin: .4em;
+background-color:#ffd699;
+	text-align:center;
+	font-family:"Verdana",  serif;
+	line-height:55px;
+	font-size:125%;
+}
+	
+	.rightcolumn{
+		margin-top:20px;
+		margin-bottom:20px;
+		line-height:100px;
+		
+	}
+
+.rightcolumn,.leftcolumn h2{
+	
+	color:#995b66;
+	
+	
+}
+
+
+.rightcolumn a{
+		color:#73d100;
+		
+	}
+	
+	
+	/* CSS for Location PAGE*/
+	
+	.flex-container7 {
+  display: flex;
+  
+  padding-left: 0px;
+  padding-top: 10px;
+  margin: 20px;
+  
+  font-size:80%;
+  
+}
+
+.flex-container7 > .location,.video {
+  width: 50%;
+  padding-left: 150px;
+  margin: 20px;
+  padding: 0px;
+
+
+}
+.quote2{
+text-align:center;
+	position: relative;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Brush Script MT', cursive;
+  background: -webkit-linear-gradient(#b35900, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-reflect: below -10px linear-gradient(transparent,rgba(0,0,0,0.3));
+  margin-top:15px;
+  
+ font-size:50px;
+}
+
+.video{
+	margin-top:20px;
+	
+}
+
+.flex-container7 h3{
+	color:#669900;
+	font-size:125%;
+	font-family:"Verdana",  serif;
+	text-decoration:underline;
+}
